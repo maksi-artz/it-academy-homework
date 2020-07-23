@@ -1,0 +1,18 @@
+body {
+    background-color: #ffffe5;
+    padding: 50px;
+}
+
+img {
+    border: double 8px #FF9AA2;
+    margin-bottom: 8px;
+}
+
+p {
+    width: 380px;
+    border: solid  #FF9AA2;
+    border-width: 0px 0px 6px 6px;
+    background-color: #FFB7B2;
+    color:#e45f6b;
+    padding: 14px;
+}
