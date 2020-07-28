@@ -1,0 +1,63 @@
+.link {
+    display: inline-block;
+    border: solid 1px blue;
+    border-radius: 9px;
+    background-color: rgb(129, 128, 124);
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:visited {
+    color:blue
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active{
+    color: grey;
+}
+
+.visit:target {
+    text-decoration: underline;
+    color: grey;
+    font-style: italic;
+}
+
+
+.style {
+    display: inline-block;
+    border: solid 1px blue ;
+    background-color: white;
+    padding-right: 20px;
+    padding-left: 6px;
+    width: 150px;
+
+}
+
+.text {
+    display: inline-block;
+    border: solid 2px blue;
+    border-radius: 9px;
+    background-color:white;
+    padding: 10px;
+
+}
+
+.style2 {
+    display: inline-block;
+    border: solid 1px blue;
+    width: 240px;
+    background-color: wheat;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-bottom: 4px;
+    
+}
+
