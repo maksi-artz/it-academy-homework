@@ -55,44 +55,32 @@ td {
     color: #333333;    
 }
 
-.single-day {
-    background-color: #ff9999;    
-}
-
 .event-start {
-    background-color: #85d6ff;
-    margin-right: -20px;
+    margin-right: -272px;
 } 
 
 .event-middle {
-    background-color: #85d6ff;
     margin-right: -30px;
     margin-left: -30px;
 }
 
 .event-end {
-    background-color: #85d6ff;
-    margin-left: -20px;
+    margin-left: -40px;
 }
 
-.hobbie {
+.green {
     background-color: #99ff99;
 }
 
-.work {
+.pink {
+    background-color: #ff9999
+}
+
+.lilac {
     background-color: #debdff;
 }
 
-.hobbie-w {
-    margin-right: -270px;
-    background-color: #99ff99;
-}
-
-.work-v {
-    margin-right: -270px;
-    background-color: #debdff;
-}
-
-.event-brunch {
+.blue {
     background-color: #85d6ff;
 }
+
