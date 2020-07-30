@@ -1,19 +1,20 @@
 .main {
     width: 300px;
-    height: 100%;
+    height: 200px;
     border: solid 1px black;
     border-radius: 8px;
     background-color: white;
     padding: 1em;
+    
 }
 
 h1 {
     font-size: 1.2em;
     background-image: url("409.png");
     background-repeat: no-repeat;
-    background-position: 0.5em 0em;
-    background-size: 40px;
-    padding: 1em;
+    background-position: right 0.5em top 0;
+    background-size: contain;
+    padding: 0.1em;
     margin: 0.5em 0.5em 0 0.5em;
     
 }
@@ -25,5 +26,6 @@ h1 {
     overflow: auto;
     padding: 0.1em;
     background-color: #ffc;
+    background-clip: content-box;
     
 }
