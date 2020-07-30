@@ -56,7 +56,8 @@ td {
 }
 
 .event-start {
-    margin-right: -272px;
+    margin-right: -44px;
+    text-align: right;
 } 
 
 .event-middle {
@@ -65,7 +66,7 @@ td {
 }
 
 .event-end {
-    margin-left: -40px;
+    margin-left: -44px;
 }
 
 .green {
