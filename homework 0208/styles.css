@@ -1,0 +1,149 @@
+body {
+  background: #333745;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.6);
+  padding: 40px;
+    
+}
+
+.card  {
+  display: inline-block;
+  width: 220px;
+  height: 370px;
+  border-radius: 1.5rem;
+  padding: 30px;
+  box-shadow: 2px 2px 46px -4px rgba(0, 0, 0, 0.6);
+  overflow: hidden; 
+  vertical-align: top; 
+  margin-right: 30px;
+}
+
+.card:nth-child(2) {
+  width: 250px;
+  height: 394px;
+  border-radius: 1.5rem;
+  padding: 30px;
+  box-shadow: 2px 2px 46px -4px rgba(0, 0, 0, 0.6);
+  overflow: hidden;  
+  vertical-align: top;
+  margin-right: 30px;
+}
+
+.card:nth-child(3){
+  width: 220px;
+  height: 370px;
+  border-radius: 1.5rem;
+  padding: 30px;
+  box-shadow: 2px 2px 46px -4px rgba(0, 0, 0, 0.6);
+  overflow: hidden; 
+  vertical-align: top; 
+  margin-right: 30px;
+
+}
+
+.card .type {
+  letter-spacing: 0.1rem;
+  margin-top: 10px;
+}
+
+.card .price {
+  font-size: 6.5rem;
+  margin-top: -20px;
+}
+
+.card .price .dollar-sign {
+  font-size: 1.8rem;
+}
+
+.card .plan {
+  font-size: 1.3rem;
+  position: relative;
+  margin-top: -6px;
+}
+
+.card .plan::before, .card .plan::after {
+  content: '';
+  width: 35px;
+  height: 2px;
+  background: white;
+  position: absolute;
+  bottom: 40%;
+}
+
+.card .plan::before {
+  left: 15%;
+}
+
+.card .plan::after {
+  right: 15%;
+}
+
+.card .details {
+  list-style: none;
+  text-transform: capitalize;
+  padding: 0;
+    
+}
+
+.card .details span {
+  text-transform: uppercase;
+}
+
+.card .details li {
+  margin: 10px 0px;
+}
+
+
+.card .subscribe {
+  color: black;
+  text-shadow: none;
+  position: relative;
+  left: 50%;
+  top: 7%;
+  background-color: white;
+  border-radius: 1.5rem 0 0 0; 
+  width: 146px;
+  height: 76px; 
+    
+}
+
+.card .subscribe p {
+  margin: 0;
+  padding: 18px 0 12px 0;
+      
+}
+
+.card:nth-child(2) .subscribe {
+  color: black;
+  text-shadow: none;
+  position: relative;
+  left: 56%;
+  top: 12%;
+  background-color: white;
+  border-radius: 1.5rem 0 0 0; 
+  width: 146px;
+  height: 76px; 
+    
+}
+.card:nth-child(2) .subscribe p {
+  font-size: 1.15rem;
+      
+}
+
+
+.card:nth-child(1) {
+  background: linear-gradient(to left, #91eae4, #86a8e7, #7f7fd5);
+}
+
+.card:nth-child(2) {
+  background: linear-gradient(to left, #ff4a2e, #ff464c, #ff426a);
+}
+
+.card:nth-child(3) {
+  background: linear-gradient(to left, #8bc542, #4abc6c, #03b098);
+}
+
