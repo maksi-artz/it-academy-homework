@@ -42,7 +42,6 @@ body {
   overflow: hidden; 
   vertical-align: top; 
   margin-right: 30px;
-
 }
 
 .card .type {
@@ -85,8 +84,7 @@ body {
 .card .details {
   list-style: none;
   text-transform: capitalize;
-  padding: 0;
-    
+  padding: 0;    
 }
 
 .card .details span {
