@@ -1,0 +1,130 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.container {
+    padding-top: 40px;
+}
+
+
+.block {
+    height: 575px;
+    width: 430px;
+    background: linear-gradient(rgba(35, 43, 85, 0.75), rgba(35, 43, 85, 0.95));
+    border-radius: 6px;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    padding-top: 40px;
+    
+}
+
+.links li {
+    display: inline;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+    padding-left: 10px;
+
+}
+
+.links li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.links .active a {
+    padding-bottom: 10px;
+    color: white;
+    border-bottom: solid 2px blue;
+}
+
+form {
+    padding-top: 55px;
+    padding-left: 37px;
+    padding-right: 37px;
+
+}
+
+.form-input {
+    width: 96%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    height: 35px;
+    border-radius: 26px;
+    color: white;
+    font-size: 13px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    color:  rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    display: block;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+
+}
+
+.form-input:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);;
+}
+
+.check-label {
+    display: inline-block;
+    padding-left: 6px;
+}
+
+
+
+button {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: blue;
+    height: 35px;
+    border-radius: 26px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(22, 22, 122);
+}
+
+hr {
+    width: 80%;
+    height: 1px;
+    background-color:rgba(255, 255, 255, 0.2);
+    margin-top: 60px;
+    border: none;
+}
+
+p {
+    text-align: center;    
+    font-size: 13px;
+    margin-top: 30px;
+    
+}
+
+a {
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.2);
+}
