@@ -1,0 +1,275 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "Open sans", sans-serif;
+}
+
+.bg-image {
+    position: relative;
+    background-image: url(123.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.bg-image:last-of-type {
+    background-image: url(456.jpg);
+    min-height: 400px;
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+    
+
+.caption span {
+    background-color: #404057;
+    padding: 20px;
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+.caption span:hover {
+    background-color:#32d093;
+   
+}
+
+
+.block {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: white;
+    box-shadow: 0px 2px 7px rgba(24, 9, 9, 0.2); */
+    padding: 48px;
+}
+
+form {
+    padding: 20px 60px 60px 60px;
+    
+
+}
+
+.form-label, legend {
+    color: #404057;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-left: 10px;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    
+}
+
+.form-input{
+    background-color: #d3dfe6;
+    width: 93%;
+    border: none;
+    height: 32px;
+    font-size: 13px;
+    padding-left: 12px;
+    color: #404057;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+}
+
+.form-input:focus{
+    background-color: #32d093;
+   
+}
+
+.radio-button {
+    display: inline-flex;
+    
+}
+
+.radio {
+    position: relative;
+    margin-right: 24px;
+}
+}
+
+.radio-input {
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+}
+
+.radio-label {
+    padding-left: 6px;
+
+    font-size: 1rem;
+    color: #444;
+    cursor: pointer;
+}
+
+.radio-label:before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: border .1s linear;
+}
+
+.radio-label:after {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: #32d093;
+    border-radius: 50%;
+    opacity: 0;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    z-index: 2;
+    transition: opacity .1s linear;
+}
+
+.radio-input:checked + .radio-label:before {
+    border-color: #32d093;
+}
+
+.radio-input:checked + .radio-label:after {
+    opacity: 1;
+}
+
+
+
+
+.info {
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+
+.post, .first-name {
+    display: inline-block;
+    width: 46%;
+}
+
+.mobile, .second-name {
+    float: right;
+    width: 46% ;
+
+}
+
+fieldset { 
+    padding: 30px;
+    border: solid 1px #404057;
+    margin-bottom: 20px;
+
+}
+
+.check-date .form-input  {
+    width: 24%;
+    margin-left: 4px;
+    margin-right: 12px;
+    
+}
+ 
+.guest .form-input {
+    width: 12%;
+    margin-left: 4px;
+    margin-right: 12px;
+}
+
+.checkbox-label  {
+    padding-left: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.checkbox {
+    position: relative;
+}
+
+
+.checkbox-input {
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+}
+
+.checkbox-label::before  {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #404057;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: background-color .1s linear;
+}
+
+.checkbox-label::after {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url("check.svg") no-repeat;
+    background-size: 12px 12px;
+    opacity: 0;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    z-index: 2;
+    transition: opacity .1s linear;
+}
+
+.checkbox-input:checked + .checkbox-label::before {
+    background-color: #32d093;
+    border-color: #32d093;
+}
+
+.checkbox-input:checked + .checkbox-label::after {
+    opacity: 1;
+}
+
+
+
+
+button {
+    float: right;
+    color: #ffffff;
+    background-color: #404057;
+    ;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 14px 30px;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    color: white;
+}
+
+
+button:hover {
+    background-color:  #32d093;
+    ;
+}
+

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Booking</title>
+</head>
+
+<body>
+
+    <div class="bg-image">
+        <div class="caption">
+            <span><a href="#form">Book Now</a></span>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class=block>
+            <form action="#" id="form">
+                <div class="main">
+
+                    <div class="first-name">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" name="name" class="form-input" required>
+                    </div>
+
+
+                    <div class="second-name">
+                        <label for="surname" class="form-label">Surname</label>
+                        <input type="text" name="surname" class="form-input" required>
+                    </div>
+
+                </div>
+
+                <div class="radio-button">
+                    <div class="radio">
+                        <input class="radio-input" name="male" type="radio" id="radio-1">
+                        <label class="radio-label" for="radio-1">Man</label>
+                    </div>
+                
+                    <div class="radio">
+                        <input class="radio-input" name="male" type="radio" id="radio-2">
+                        <label class="radio-label" for="radio-2">Women</label>
+                    </div>
+    
+
+                </div>
+
+                
+
+
+                <div class="info">
+                    <div class="post">
+                        <label for="mail" class="form-label">E-mail</label>
+                        <input type="email" name="mail" class="form-input" required>
+
+                    </div>
+
+                    <div class="mobile">
+                        <label for="phone" class="form-label">Phone number</label>
+                        <input type="tel" name="phone" class="form-input" required>
+
+                    </div>
+
+                </div>
+
+
+
+                <fieldset>
+                    <legend>Select date</legend>
+
+                    <div class="check-date">
+                        <label for="in" class="form-label">Check in</label>
+                        <input type="date" name="checkin" class="form-input" required>
+
+                        <label for="out" class="form-label">Check out</label>
+                        <input type="date" name="checkout" class="form-input" required>
+
+                    </div>
+
+                    <div class="guest">
+                        <label for="adult" class="form-label">Adults</label>
+                        <select name="adult" class="form-input" required>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+
+                        <label for="child" class="form-label">Children</label>
+                        <select name="child" class="form-input" required>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </fieldset>
+
+               
+                <div class="checkbox">
+                    <input class="checkbox-input" type="checkbox" id="checkbox-1">
+                    <label class="checkbox-label" for="checkbox-1">This is a work trip</label>
+                </div>
+
+                <button type="submit">Reserve</button>
+
+            </form>
+
+
+        </div>
+
+    </div>
+
+    <div class="bg-image">
+        <div class="caption">
+            <span>Good Luck</span>
+        </div>
+    </div>
+
+    
+
+</body>
+
+</html>
