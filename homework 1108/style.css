@@ -58,8 +58,7 @@ a {
 }
 
 form {
-    padding: 20px 60px 60px 60px;
-    
+    padding: 20px 60px 60px 60px;   
 
 }
 
@@ -69,8 +68,7 @@ form {
     font-size: 14px;
     padding-left: 10px;
     font-weight: 600;
-    letter-spacing: 0.05rem;
-    
+    letter-spacing: 0.05rem;    
 }
 
 .form-input{
@@ -82,8 +80,7 @@ form {
     padding-left: 12px;
     color: #404057;
     margin-bottom: 20px;
-    margin-top: 10px;
-    
+    margin-top: 10px;    
 }
 
 .form-input:focus{
@@ -92,14 +89,12 @@ form {
 }
 
 .radio-button {
-    display: inline-flex;
-    
+    display: inline-flex;    
 }
 
 .radio {
     position: relative;
     margin-right: 24px;
-}
 }
 
 .radio-input {
@@ -110,10 +105,10 @@ form {
 
 .radio-label {
     padding-left: 6px;
-
     font-size: 1rem;
     color: #444;
     cursor: pointer;
+    margin-left: 20px;
 }
 
 .radio-label:before {
@@ -154,9 +149,6 @@ form {
     opacity: 1;
 }
 
-
-
-
 .info {
     margin-top: 28px;
     margin-bottom: 20px;
@@ -165,12 +157,12 @@ form {
 .post, .first-name {
     display: inline-block;
     width: 46%;
+    margin-right: 42px;
 }
 
 .mobile, .second-name {
-    float: right;
-    width: 46% ;
-
+    display: inline-block;
+    width: 46%;
 }
 
 fieldset { 
@@ -183,8 +175,7 @@ fieldset {
 .check-date .form-input  {
     width: 24%;
     margin-left: 4px;
-    margin-right: 12px;
-    
+    margin-right: 12px;    
 }
  
 .guest .form-input {
@@ -249,9 +240,6 @@ fieldset {
     opacity: 1;
 }
 
-
-
-
 button {
     float: right;
     color: #ffffff;
@@ -266,7 +254,6 @@ button {
     letter-spacing: 0.05rem;
     color: white;
 }
-
 
 button:hover {
     background-color:  #32d093;
