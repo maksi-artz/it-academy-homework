@@ -86,6 +86,10 @@ h2 {
   grid-column: 3 / 4;
 }
 
+.hidden-bg {
+  display: none;
+} 
+
 .header-third {
   grid-column: 4 / 5;
   grid-row: 1 / 2;
@@ -166,9 +170,17 @@ h2 {
     padding-left: 12px;  
   }
 
+  .hidden-bg {
+    display: grid;
+    grid-column: 3 / 4;
+    grid-row: 1 / 15;
+    z-index: -1;
+    background-color: white;
+  }
+
   .third  {
     background-color: transparent;
-    padding-left: 12px;  
+    padding-left: 12px; 
   }
 
   .label {
@@ -242,6 +254,7 @@ h2 {
 
   .third{
     justify-items: center;
-    padding: 8px 0 36px 0;  
+    padding: 8px 0 36px 0;
+  }  
   
 }
