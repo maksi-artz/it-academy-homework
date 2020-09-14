@@ -220,6 +220,11 @@ h2 {
     text-align: center;
   }
 
+  .hidden-bg {
+    display: none;
+  }
+
+
   .header-first {
     justify-items: center;
   }
@@ -231,7 +236,6 @@ h2 {
 
   .header-third {
     justify-items: center;
-
   }
 
   .label {
